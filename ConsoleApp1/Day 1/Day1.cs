@@ -1,12 +1,10 @@
-﻿
-
-namespace ConsoleApp1
+﻿namespace ConsoleApp1
 {
-    internal class Program
+    public class Day1
     {
-        static void Main(string[] args)
+        public static void start()
         {
-            Console.Write("\nEnter a number: ");
+            Console.Write("\nIs even? Enter a number: ");
             int number = Convert.ToInt32(Console.ReadLine());
             BasicExcercise.EvenNumberCheck(number);
 
