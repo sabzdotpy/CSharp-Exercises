@@ -222,7 +222,7 @@ namespace ConsoleApp1
 
         public static void IsMailAndUsernameValid(string email, string username)
         {
-            string validEmailPattern = @"/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
+            string validEmailPattern = @"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}";
             string validUsernamePattern = @"^[a-zA-Z0-9._-]{3,16}$";
 
             if (Regex.IsMatch(email.Trim(), validEmailPattern))
