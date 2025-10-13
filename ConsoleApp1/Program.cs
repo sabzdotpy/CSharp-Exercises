@@ -19,7 +19,9 @@ namespace ConsoleApp1
             //Console.WriteLine("Day 3 Programs: ");
             //Day3.start();
 
-            Day4.start();
+            //Day4.start();
+            //Day4.exampleArrayProgram();
+            ArrayBasics arrayBasics = new ArrayBasics();
         }
     }
 }

@@ -7,6 +7,11 @@ namespace ConsoleApp1
 {
     public class Day4
     {
+
+        public static void exampleArrayProgram()
+        {
+            ArraysExample arraysExample = new ArraysExample();
+        }
         public static void start()
         {
             Console.WriteLine("==========================================================");
