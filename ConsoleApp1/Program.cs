@@ -21,7 +21,10 @@ namespace ConsoleApp1
 
             //Day4.start();
             //Day4.exampleArrayProgram();
-            ArrayBasics arrayBasics = new ArrayBasics();
+            //ArrayBasics arrayBasics = new ArrayBasics();
+
+            Console.WriteLine("Day 5 Programs: ");
+            Day5.start();
         }
     }
 }
