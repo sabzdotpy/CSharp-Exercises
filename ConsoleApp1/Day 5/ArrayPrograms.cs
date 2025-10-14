@@ -39,7 +39,7 @@ namespace ConsoleApp1
 
         public static void ReverseArrayAndPrint(int[] array)
         {
-            Console.WriteLine("Original array: " + string.Join(", ", array));
+            Console.WriteLine("Original array: [" + string.Join(", ", array) + "]");
             int i = 0;
             int j = array.Length - 1;
 
@@ -53,7 +53,7 @@ namespace ConsoleApp1
                 j--;
             }
 
-            Console.WriteLine("Reversed array: " + string.Join(", ", array));
+            Console.WriteLine("Reversed array: [" + string.Join(", ", array) + "]");
         }
 
         public static void FindSecondLargestNumber(int[] array)
@@ -79,11 +79,20 @@ namespace ConsoleApp1
 
         public static void SortArrayInAscDesc(int[] array)
         {
-            Console.WriteLine($"Original array: {string.Join(", ", array)}");
+            Console.Write("[");
+            Console.WriteLine($"Original array: [{string.Join(", ", array)}]");
+            Console.Write("]");
+
             Array.Sort(array);
-            Console.WriteLine($"Ascending Order: {string.Join(", ", array)}");
+            Console.Write("[");
+            Console.WriteLine($"Ascending Order: [{string.Join(", ", array)}]");
+            Console.Write("]");
+
             Array.Reverse(array);
-            Console.WriteLine($"Descending Order: {string.Join(", ", array)}");
+            Console.Write("[");
+            Console.WriteLine($"Descending Order: [{string.Join(", ", array)}]");
+            Console.Write("]");
+
         }
 
         public static void CountFrequency(int[] array)
@@ -119,7 +128,7 @@ namespace ConsoleApp1
                 index++;
             }
 
-            Console.WriteLine($"Merged Array: {string.Join(",", array3)}");
+            Console.WriteLine($"Merged Array: [{string.Join(",", array3)}]");
         }
 
         public static void RemoveDuplicates(int[] array)
@@ -146,8 +155,8 @@ namespace ConsoleApp1
                 }
             }
 
-            Console.WriteLine($"Original Array: {array}");
-            Console.WriteLine($"Array after removing duplicates: {temp}");
+            Console.WriteLine($"Original Array: [{string.Join(", ", array)}]");
+            Console.WriteLine($"Array after removing duplicates: [{string.Join(", ", temp)}]");
         }
     }
 }
