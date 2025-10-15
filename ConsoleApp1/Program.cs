@@ -23,9 +23,12 @@ namespace ConsoleApp1
             //Day4.exampleArrayProgram();
             //ArrayBasics arrayBasics = new ArrayBasics();
 
-            Console.WriteLine("Day 5 Programs: ");
+            //Console.WriteLine("Day 5 Programs: ");
             //Day5.start();
-            SortinAndSearchingAlgorithms.BinarySearch();
+            //SortinAndSearchingAlgorithms.BinarySearch();
+
+            Console.WriteLine("Day 6 Programs: ");
+            Day6.start();
         }
     }
 }

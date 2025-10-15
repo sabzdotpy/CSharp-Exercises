@@ -212,7 +212,7 @@ namespace ConsoleApp1
                 array1[i] = x;
             }
 
-            Console.Write("Enter the size of array 2: ")
+            Console.Write("Enter the size of array 2: ");
             int n2 = Convert.ToInt32(Console.ReadLine());
 
             int[] array2 = new int[n1];
