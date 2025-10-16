@@ -27,8 +27,11 @@ namespace ConsoleApp1
             //Day5.start();
             //SortinAndSearchingAlgorithms.BinarySearch();
 
-            Console.WriteLine("Day 6 Programs: ");
-            Day6.start();
+            //Console.WriteLine("Day 6 Programs: ");
+            //Day6.start();
+
+            Console.WriteLine("Day 7 Programs: ");
+            Day7.start();
         }
     }
 }

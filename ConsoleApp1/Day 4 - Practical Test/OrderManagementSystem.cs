@@ -192,7 +192,7 @@ namespace ConsoleApp1
         static int shippingChargeInUSD(int amount)
         {
             if (amount >= shippingChargeSkipThreshold) return 0;
-            return 50;
+            return standardShippingCharge;
         }
         
         static string calculateDeliveryDate(DeliveryType deliveryType)
