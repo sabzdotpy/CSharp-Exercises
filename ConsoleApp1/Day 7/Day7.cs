@@ -10,6 +10,9 @@ namespace ConsoleApp1
     {
         public static void start()
         {
+            _3dArray.GetAndMake3DArray();
+            return;
+
             Console.WriteLine("1/6 Print 3x3 2D Array as Matrix");
             int[,] arr = new int[3, 3];
             for (int i = 0; i < 3; i++)
