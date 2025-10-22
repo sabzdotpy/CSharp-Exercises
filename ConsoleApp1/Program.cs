@@ -30,8 +30,11 @@ namespace ConsoleApp1
             //Console.WriteLine("Day 6 Programs: ");
             //Day6.start();
 
-            Console.WriteLine("Day 7 Programs: ");
-            Day7.start();
+            //Console.WriteLine("Day 7 Programs: ");
+            //Day7.start();
+
+            Console.WriteLine("Day 8 Programs:");
+            Day8.start();
         }
     }
 }
