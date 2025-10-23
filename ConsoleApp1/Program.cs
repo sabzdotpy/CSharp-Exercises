@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Day_10___Strings;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,8 +34,13 @@ namespace ConsoleApp1
             //Console.WriteLine("Day 7 Programs: ");
             //Day7.start();
 
-            Console.WriteLine("Day 8 Programs:");
-            Day8.start();
+            //Console.WriteLine("Day 8 Programs:");
+            //Day8.start();
+
+            //Day9.start();
+
+            Console.WriteLine("Day 10 Programs:");
+            Day10.start();
         }
     }
 }
