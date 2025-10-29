@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
 
 namespace ConsoleApp1.Day_10___Strings
 {
@@ -18,6 +11,7 @@ namespace ConsoleApp1.Day_10___Strings
                 return;
             }
 
+            
             string x = new string(str.Reverse().ToArray());
             Console.WriteLine(x);
         }

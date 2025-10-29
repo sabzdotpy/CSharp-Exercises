@@ -63,7 +63,7 @@ namespace ConsoleApp1
 
         public static void IsPalindrome(string text)
         {
-            Console.WriteLine((text! == text.Reverse()) ? "Text is a palindrome." : "Text is not a palindrome.");
+            Console.WriteLine((text! == (string)text.Reverse()) ? "Text is a palindrome." : "Text is not a palindrome.");
         }
 
         public static void IsPalindrome(int number)
