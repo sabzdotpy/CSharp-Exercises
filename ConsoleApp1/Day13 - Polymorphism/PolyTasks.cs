@@ -32,8 +32,6 @@ namespace ConsoleApp1.Day13___Polymorphism
     // Task 2 - Vehicle - speedup
     public class Vehicle
     {
-        int speed;
-
         public virtual void speedUp () { }
     }
 
