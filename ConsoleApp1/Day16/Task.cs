@@ -113,15 +113,15 @@ namespace ConsoleApp1.Day16
     }
 
     // Task 4 - Another Project
-    class AnotherProjectProgram
-    {
-        static void Main()
-        {
-            K1 obj = new K1();
-            obj.Add(2, 3);             // works - public
-            //obj.AddInternal(2, 3);  // not accessible — internal in another assembly
-        }
-    }
+    //class AnotherProjectProgram
+    //{
+    //    static void Main()
+    //    {
+    //        K1 obj = new K1();
+    //        obj.Add(2, 3);             // works - public
+    //        //obj.AddInternal(2, 3);  // not accessible — internal in another assembly
+    //    }
+    //}
 
 
     // Task 5 - Fields
@@ -135,18 +135,18 @@ namespace ConsoleApp1.Day16
         private protected string id;  // accessible only in derived classes in same assembly
     }
 
-    class ModifyFieldsDemo
-    {
-        static void Main()
-        {
-            FieldsDemo obj = new FieldsDemo();
-            obj.name = "S";       // works - public
-             //obj.dept = "IT";   // private - doesnt work
-             //obj.city = "Madurai"; // protected - doesnt work
-            obj.country = "India";  // internal
-            obj.code = "91";      // protected internal
-            // obj.id = "P001";     // private protected - doesnt wprk.
-        }
-    }
+    //class ModifyFieldsDemo
+    //{
+    //    static void Main()
+    //    {
+    //        FieldsDemo obj = new FieldsDemo();
+    //        obj.name = "S";       // works - public
+    //         //obj.dept = "IT";   // private - doesnt work
+    //         //obj.city = "Madurai"; // protected - doesnt work
+    //        obj.country = "India";  // internal
+    //        obj.code = "91";      // protected internal
+    //        // obj.id = "P001";     // private protected - doesnt wprk.
+    //    }
+    //}
 
 }
