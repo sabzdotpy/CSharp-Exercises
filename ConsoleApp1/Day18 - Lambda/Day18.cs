@@ -168,6 +168,19 @@ namespace ConsoleApp1.Day18___Lambda
             Console.WriteLine(string.Join('\n', lowestSalaried));
             Console.WriteLine("--------------------------");
 
+            Console.WriteLine("Group Employees by Department");
+            var deptWiseSalary = employees.GroupBy(emp => emp.Department);
+
+            foreach (var group in deptWiseSalary)
+            {
+                Console.WriteLine($"Department: {group.Key}");
+                foreach (var emp in group)
+                {
+                    Console.WriteLine($"  {emp.Name} - {emp.Salary}");
+                }
+            }
+
+
 
         }
     }
