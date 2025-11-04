@@ -62,8 +62,13 @@ namespace ConsoleApp1
             //Console.WriteLine("Day 15 Programs: "); 
             //Day15.start();
 
-            Day16.Day16Task dt = new Day16.Day16Task();
-            dt.start();
+            //Day16.Day16Task dt = new Day16.Day16Task();
+            //dt.start();
+
+            //Day17.Day17.start();
+
+            Day18___Lambda.Day18.start();
+
 
         }
     }
