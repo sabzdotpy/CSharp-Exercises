@@ -180,8 +180,6 @@ namespace ConsoleApp1.Day18___Lambda
                 }
             }
 
-
-
         }
     }
 }

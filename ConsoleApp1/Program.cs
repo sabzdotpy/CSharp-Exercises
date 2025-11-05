@@ -67,7 +67,9 @@ namespace ConsoleApp1
 
             //Day17.Day17.start();
 
-            Day18___Lambda.Day18.start();
+            //Day18___Lambda.Day18.start();
+
+            Day19___Group_By.Day19.start();
 
 
         }
